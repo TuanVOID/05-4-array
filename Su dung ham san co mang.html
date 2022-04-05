@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>su dung ham</title>
+</head>
+<body>
+//bai 1 noi chuoi
+<!--ole.log(a);-->
+<!--&lt;!&ndash;</script><script>&ndash;&gt;-->
+<!--    let myColor = ["red", "green", "white" , "black"];-->
+<!--    let a ="";-->
+<!--    for (let i = 0; i < myColor.length; i++) {-->
+<!--       a += myColor[i] + ",";-->
+<!--    }-->
+<!--    cons-->
+
+//bai 2 viet dau gach giua cac so chan
+<script>
+    // let inText = prompt("hay nhap day so can chuyen").toString();
+    // let txt = "";
+    // for (let i = 0; i < inText.length; i++) {
+    //     txt += inText[i];
+    //     if ( +inText[i]%2===0 && +inText[i+1]%2===0 ) {
+    //         txt += "-";
+    //     }
+    // }
+    // // inText = txt;
+    // // console.log(inText)
+    // console.log(txt);
+
+
+    // bai3 chuyen chu thuong thanh chu hoa
+    let str = prompt("Nhap vao chuoi can chuyen","text");
+    let upTxt = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
+    let lowTxt = "abcdefghijklmnopqrstuvxyz";
+    let a = [];
+    for (let i = 0; i < str.length; i++) {
+        if (upTxt.indexOf(str[i]) != -1) {
+            a.push(str[i].toLowerCase());
+        } else if (lowTxt.indexOf(str[i]) !== -1) {
+            a.push(str[i].toUpperCase());
+        } else a.push(str[i]);
+    }
+    b = a.join('');
+    console.log(b);
+
+</script>
+
+
+</body>
+</html>
