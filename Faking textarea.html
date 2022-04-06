@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>faking</title>
+</head>
+<body>
+<h1 align="center">Typing here</h1>
+<input type="text" id="typeIn" onkeyup="faking()">
+<script>
+    let text = "kiss you every day";
+    function faking() {
+       let txt ="";
+       a = document.getElementById("typeIn").value;
+        for (let i = 0; i < txt.length; i++) {
+            txt[i] == text[i]
+        }
+    }
+</script>
+
+</body>
+</html>
